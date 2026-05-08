@@ -31,8 +31,7 @@ Note: As an extended bonus analysis, EfficientNetB0 was also evaluated using the
 
 ### 💡 Key Insights
 * **Speed vs. Accuracy:** The SVM hybrid model (Approach 1) trained in a fraction of the time, making it ideal for rapid edge deployment. The End-to-End model (Approach 2) achieved slightly higher accuracy by fine-tuning weights specific to tumor morphology, but at a higher computational cost.
-* **Network Complexity:** Testing the heavier ResNet50 architecture resulted in severe overfitting (99% training accuracy vs 25% validation), proving that the lightweight MobileNetV1 was the superior architectural choice for this specific dataset size.
-* Network Complexity (Bonus): Testing the modern EfficientNetB0 architecture yielded exceptional results (93.12% test accuracy). It completely avoided the severe overfitting issues commonly seen when applying massive, older models to datasets of this size, proving that mathematically optimized architectural scaling is highly effective for medical imagery.
+Network Complexity (Bonus): Testing the modern EfficientNetB0 architecture yielded exceptional results (93.12% test accuracy). It completely avoided the severe overfitting issues commonly seen when applying massive, older models to datasets of this size, proving that mathematically optimized architectural scaling is highly effective for medical imagery.
 
 ## 🚀 How to Run
 1. Clone this repository.
