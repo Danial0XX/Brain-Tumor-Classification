@@ -34,6 +34,6 @@ Both primary approaches utilized **MobileNetV1**, selected specifically for its 
 
 ## 🚀 How to Run
 1. Clone this repository.
-2. Download the Brain Tumor MRI dataset from Kaggle and place the `Training` and `Testing` directories in the root folder.
+2. Download the Brain Tumor MRI dataset from Kaggle ([click here](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)) and place the `Training` and `Testing` directories in the root folder.
 3. Install dependencies: `pip install tensorflow scikit-learn matplotlib seaborn`
 4. Execute the Python scripts sequentially.
